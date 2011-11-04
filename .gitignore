@@ -23,6 +23,7 @@ public/themes/*
 # Public Cache
 public/javascripts/cache
 public/stylesheets/cache
+public/javascripts/translations.js
 
 # Vendor Cache
 vendor/cache
