@@ -12,17 +12,18 @@ body {
   line-height: 18px;
 }
 
-#body_content {
+section[id='body_content'] {
   float: left;
   width: 90%;
   background: #FFE7BA;
   color: #333;
   padding: 20px;
 }
+
 #side_body_content {
   float: right;
   width: 45%;
-  background: white;
+  background: red;
   color: #333;
   padding: 20px;
 }
@@ -52,3 +53,21 @@ div.footer {
     font-family: Arial;
     font-size: 19px;
     line-height: 28px;   
+
+#body_content_title {
+    color: purple;
+    font-size: 49px;
+}
+
+h1 {
+    color: purple;
+    font-size: 49px;
+}
+
+section#body_content_left {
+    font-size: 49px;
+}
+
+div.inner {
+    font-size: 49px;
+}
