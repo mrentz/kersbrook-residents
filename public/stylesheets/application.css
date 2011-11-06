@@ -5,44 +5,52 @@
 
 @import url('refinery/application.css');
 
-body {
-  background: #DDD;
-  font-family: Verdana;
-  font-size: 13px;
-  line-height: 18px;
+
+body { 
+    background: url('/images/waterhole.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Verdana;
+    font-size: 13px;
+    line-height: 18px;
 }
 
-section[id='body_content'] {
+div#page_container {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    background: white
+    }
+
+header {
+    background: #CAFF70;
+}
+
+#body_content {
   float: left;
-  width: 90%;
+  width: 100%;
   background: #FFE7BA;
   color: #333;
-  padding: 20px;
+  padding: 0px;
 }
 
-#side_body_content {
-  float: right;
-  width: 45%;
-  background: red;
-  color: #333;
-  padding: 20px;
-}
-
-#menu ul {
+nav#menu ul {
   list-style: none;
   padding: 10px;
 }
 
-#menu ul li {
+nav#menu ul li {
   float: left;
   margin-right: 0px;
 }
 
-#menu ul li a {
+nav#menu ul li a {
   display: block;
   padding: 5px 10px;
   text-decoration: none;
-  background: #DDD;
+  background: #CAFF70;
 }
 
 #menu ul li.selected a, #menu ul li a:hover {
@@ -52,7 +60,8 @@ section[id='body_content'] {
 div.footer {
     font-family: Arial;
     font-size: 19px;
-    line-height: 28px;   
+    line-height: 28px;  
+    background: #FF8C00;
 
 #body_content_title {
     color: purple;
@@ -68,6 +77,3 @@ section#body_content_left {
     font-size: 49px;
 }
 
-div.inner {
-    font-size: 49px;
-}

@@ -25,5 +25,7 @@
   padding: 20px;
 }
 
-
+div.inner {
+    font-size: 13px;
+}
 
