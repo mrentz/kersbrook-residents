@@ -13,7 +13,7 @@
 #body_content_left {
   float: left;
   width: 55%;
-  background: blue;
+  background: #FFE7BA;
   color: #333;
   padding: 20px;
 }
@@ -21,7 +21,7 @@
 #body_content_right {
   float: right;
   width: 35%;
-  background: red;
+  background: #FFE7BA;
   color: #333;
   padding: 20px;
 }
