@@ -68,10 +68,10 @@ nav#menu ul li a {
 }
 
 div.footer {
-    float: center;
+    float: middle;
     font-family: Arial;
     font-size: 19px;
-    line-height: 28px;  
+    line-height: 20px;  
     width: 80%;
     background: #FF8C00;
 
