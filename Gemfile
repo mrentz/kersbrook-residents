@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.5'
+gem 'rails', '~> 3.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -34,7 +34,8 @@ gem 'fog'
 # REFINERY CMS ================================================================
 # Anything you put in here will be overridden when the app gets updated.
 
-gem 'refinerycms',              '= 0.9.9.4'
+#gem 'refinerycms',              '= 0.9.9.4'
+gem 'refinerycms', '= 1.0.8'
 
 group :development, :test do
   # gem 'refinerycms-testing',    '~> 0.9.9.1'
