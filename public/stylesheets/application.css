@@ -29,6 +29,10 @@ header {
     background: url('/images/headerbg.jpg') no-repeat;
 }
 
+h1#logo > a {
+    color: white;
+}
+
 #page {
     background: #FFE7BA;
     color: #333;
@@ -53,13 +57,15 @@ nav#menu ul li {
 }
 
 nav#menu ul li a {
+    color: white;
     display: block;
     padding: 5px 10px;
     text-decoration: none;
-    background: #CAFF70;
+    background: clear;
 }
 
 #menu ul li.selected a, #menu ul li a:hover {
+    color: purple;
     background: #FFE7BA;
 }
 
