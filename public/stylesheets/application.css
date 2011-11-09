@@ -31,6 +31,7 @@ header {
 
 h1#logo > a {
     color: white;
+    text-decoration: none;
 }
 
 #page {
@@ -70,12 +71,14 @@ nav#menu ul li a {
 }
 
 div.footer {
-    float: center;
+    text-align: center;
     font-family: Arial;
     font-size: 19px;
     line-height: 20px;  
-    width: 80%;
-    background: #FF8C00;
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #556B2F;
 
 #body_content_title {
     color: purple;
